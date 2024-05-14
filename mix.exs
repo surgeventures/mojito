@@ -25,7 +25,7 @@ defmodule Mojito.MixProject do
 
   defp package do
     [
-      description: "Fast, easy to use HTTP client based on Mint, forked from https://github.com/surgeventures/mojito",
+      description: "Mojito client but with castore updated, forked from https://github.com/surgeventures/mojito",
       licenses: ["MIT"],
       maintainers: ["pete gamache <pete@appcues.com>"],
       links: %{
