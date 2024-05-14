@@ -6,7 +6,7 @@ defmodule Mojito.MixProject do
 
   def project do
     [
-      app: :mojito,
+      app: :mojito_fresha,
       version: @version,
       elixir: "~> 1.7",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -25,7 +25,7 @@ defmodule Mojito.MixProject do
 
   defp package do
     [
-      description: "Fast, easy to use HTTP client based on Mint",
+      description: "Mojito client but with castore updated, forked from https://github.com/surgeventures/mojito",
       licenses: ["MIT"],
       maintainers: ["pete gamache <pete@appcues.com>"],
       links: %{
