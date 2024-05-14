@@ -1,8 +1,8 @@
 defmodule Mojito.MixProject do
   use Mix.Project
 
-  @version "0.7.12"
-  @repo_url "https://github.com/appcues/mojito"
+  @version "0.7.13"
+  @repo_url "https://github.com/surgenventures/mojito"
 
   def project do
     [
@@ -45,7 +45,7 @@ defmodule Mojito.MixProject do
   defp deps do
     [
       {:mint, "~> 1.1"},
-      {:castore, "~> 0.1"},
+      {:castore, "~> 0.1 or ~> 1.0"},
       {:poolboy, "~> 1.5"},
       {:telemetry, "~> 0.4 or ~> 1.0"},
       {:ex_spec, "~> 2.0", only: :test},
